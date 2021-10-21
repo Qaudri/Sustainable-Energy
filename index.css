@@ -19,6 +19,7 @@ html{
         background-color: white;
         padding: 0px;
         min-height: 30px;
+        display: block;
     }
 
     .header{
@@ -27,6 +28,13 @@ html{
     }
 
     .header_container{
+        /* width: 100%; */
+        display: block;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+    }
+
+    .top_header{
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -46,12 +54,10 @@ html{
     }
 
     .close_button{
-        font-size: 1.5em;
-        color: white;
         background: transparent;
         border: 0px;
         outline: none;
-        padding: 10px;
+        padding: 20px 40px;
         display: none;
     }
 
@@ -64,14 +70,15 @@ html{
     .header_list ul {
         display: block;
         padding: 0px;
+        margin: 0px;
     }
       
     .header_list ul li {
         text-decoration: none;
         list-style: none;
-        padding: 0px 10px;
+        padding: 0px 40px;
         padding-top: 20px;
-        border-bottom: 1px solid #e63838;
+        border-bottom: 1px solid black;
     }
 
     .hero_section{
