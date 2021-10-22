@@ -23,7 +23,7 @@ html{
         background-color: white;
         padding: 0px;
         min-height: 30px;
-        display: block;
+        /* display: block; */
     }
 
     .header{
@@ -160,7 +160,7 @@ html{
     .main_text p{
         margin: 30px 0px 0px 0px;
         padding: 0px;
-        font-size: 1em;
+        font-size: .8em;
     }
 
     .main_image img{
@@ -281,10 +281,11 @@ html{
         padding: 30px;
         border-radius: 10px;
         box-shadow: 4px 4px 5px 4px #dddddd;
+        max-height: 300px;
     }
 
     .box img{
-        width: 75px;
+        width: 50px;
         margin: 0px;
         padding: 0px;
     }
@@ -327,6 +328,7 @@ html{
     }
 
     .form_element input{
+        font-size: .8em;
         width: 70%;
         outline: #aaaaaa;
         padding: 10px 15px;
@@ -335,6 +337,7 @@ html{
     }
 
     .form_element a{
+        font-size: .8em;
         text-decoration: none;
         border-radius: 0px;
         border: 1px solid black;
@@ -363,8 +366,760 @@ html{
         text-align: center;
         color: white;
         min-height: 20px;
-        padding: 10px 0px;
+        padding: 5px 0px;
         margin: 0px;
+        width: 100%;
+        font-size: .8em;
+    }
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 600px){
+        .header_section{
+        background-color: white;
+        padding: 0px;
+        min-height: 30px;
+        display: block;
+    }
+
+    .header{
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .header_container{
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .top_header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo{
+        width: 60px;
+        padding: 20px 40px ;
+    }
+
+    .menu_button{
+        background: transparent;
+        border: 0px;
+        outline: none;
+        padding: 20px 40px;
+    }
+
+    .close_button{
+        background: transparent;
+        border: 0px;
+        outline: none;
+        padding: 20px 40px;
+        display: none;
+    }
+
+    .header_list{
+        display: none;
         width: 100%;
     }
 
+
+    .header_list ul {
+        display: block;
+        padding: 0px 0px 20px 0px;
+        margin: 0px;
+    }
+      
+    .header_list ul li {
+        text-decoration: none;
+        list-style: none;
+        padding: 0px 40px;
+        padding-top: 20px;
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+        font-size: 1em;
+    }
+
+    .hero_section{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .hero_container{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .hero_text{
+        background: url('./images/sustain.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        width: 100%;
+        height: 400px;
+
+    }
+
+    .hero_text h1{
+        color: white;
+        font-size: 2.5em;
+        font-weight: bold;
+        padding-top: 120px;
+        padding-bottom: 30px;
+        padding-right: 0px;
+        padding-left: 0px;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .hero_text a{
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+        font-size: 1em;
+        border: 2px solid white;
+        border-radius: 0px;
+        padding: 10px;
+    }
+
+    .hero_text a:hover{
+        cursor: pointer;
+        background-color: white;
+        color: black;
+    }
+
+    .solar_energy{
+        width: 100%;
+        padding: 0px;
+        margin: 50px 0px 0px 0px ;
+    }
+
+    .container{
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .main_text{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main_text h1{
+        margin: 0px;
+        padding: 0px;
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    .main_text p{
+        margin: 30px 0px 0px 0px;
+        padding: 0px;
+        font-size: 1em;
+    }
+
+    .main_image img{
+        max-height: 500px;
+        width: 100%;
+        margin: 30px 0px 0px 0px;
+    }
+
+    
+    .solar_energy_cta{
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .solar_energy_cta img{
+        max-height: 500px;
+        width: 100%;
+    }
+
+    .solar_energy_cta h1{
+        margin: 30px 0px 0px 0px;
+        padding: 0px;
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    .solar_energy_cta p{
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+        font-size: 1em;
+        margin-bottom: 30px;
+    }
+
+    .solar_energy_cta a{
+        color: white;
+        background-color: black;
+        text-decoration: none;
+        font-size: 1em;
+        /* border: 2px solid white; */
+        border-radius: 0px;
+        padding: 10px;
+    }
+
+    .solar_energy_cta a:hover{
+        color: black;
+        border: 2px solid black;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .cta_continued{
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .cta_continued h1{
+        margin: 30px 0px 0px 0px;
+        padding: 0px;
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    .cta_continued p{
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+        font-size: 1em;
+        margin-bottom: 30px;
+    }
+
+    .cta_continued a{
+        color: white;
+        background-color: black;
+        text-decoration: none;
+        font-size: 1em;
+        /* border: 2px solid white; */
+        border-radius: 0px;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+
+    .cta_continued a:hover{
+        color: black;
+        border: 2px solid black;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .cta_continued img{
+        margin-top: 30px;
+        max-height: 500px;
+        width: 100%;
+    }
+
+    .benefits{
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .benefits h1{
+        text-align: center;
+        font-size: 2.2em;
+        font-weight: bold;
+    }
+
+    .box{
+        background-color: white;
+        max-width: 300px;
+        max-height: 300px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 5px 4px #dddddd;
+    }
+
+    .box img{
+        width: 75px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .box h2{
+        font-size: 1.3em;
+        font-weight: bold;
+        margin: 10px 0px;
+        padding: 0px;
+    }
+
+    .box p{
+        font-size: 1em;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .email{
+        max-width: 500px;
+        margin: auto;
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .email h1{
+        font-size: 2.2em;
+        font-weight: bold;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .email p{
+        font-size: 1em;
+        padding: 0px;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .form_element label{
+        display: none;
+    }
+
+    .form_element input{
+        font-size: 1em;
+        width: 70%;
+        outline: #aaaaaa;
+        padding: 10px 15px;
+        border: 1px solid #aaaaaa;
+        margin: 0px;
+    }
+
+    .form_element a{
+        font-size: 1em;
+        text-decoration: none;
+        border-radius: 0px;
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        padding: 8px;
+        margin: 0px;
+        width: 30%;
+    }
+
+    .form_element a:hover{
+        border: 2px solid black;
+        background-color: transparent;
+        color: black;
+    }
+
+    .email img{
+        width: 100%;
+        margin: 30px auto 0px auto;
+        max-height: 500px;
+        padding-top: 30px;
+    }
+
+    .footer{
+        background-color: #222222;
+        text-align: center;
+        color: white;
+        min-height: 20px;
+        padding: 5px 0px;
+        margin: 0px;
+        width: 100%;
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+    .header_section{
+        background-color: white;
+        padding: 0px;
+        min-height: 30px;
+        display: block;
+    }
+
+    .header{
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .header_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .top_header{
+        width: 100%;
+        /* display: flex; */
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+
+    .logo{
+        width: 75px;
+        padding: 20px 40px;
+    }
+
+    .menu_button{
+        background: transparent;
+        border: 0px;
+        outline: none;
+        padding: 20px 40px;
+        display: none;
+    }
+
+    .close_button{
+        background: transparent;
+        border: 0px;
+        outline: none;
+        padding: 20px 40px;
+        display: none;
+    }
+
+    .header_list{
+        display: block;
+        width: 100%;
+    }
+
+
+    .header_list ul {
+        display: block;
+        padding: 0px;
+        margin: 0px;
+    }
+      
+    .header_list ul li {
+        width: 100%;
+        display: inline;
+        text-decoration: none;
+        list-style: none;
+        padding: 0px 10px;
+        border: none;
+        font-size: 1em;
+    }
+
+    .hero_section{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .hero_container{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .hero_text{
+        background: url('./images/sustain.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        width: 100%;
+        height: 400px;
+
+    }
+
+    .hero_text h1{
+        color: white;
+        font-size: 2.5em;
+        font-weight: bold;
+        padding-top: 120px;
+        padding-bottom: 30px;
+        padding-right: 0px;
+        padding-left: 0px;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .hero_text a{
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+        font-size: 1em;
+        border: 2px solid white;
+        border-radius: 0px;
+        padding: 10px;
+    }
+
+    .hero_text a:hover{
+        cursor: pointer;
+        background-color: white;
+        color: black;
+    }
+
+    .solar_energy{
+        width: 100%;
+        padding: 0px;
+        margin: 50px 0px 0px 0px ;
+    }
+
+    .container{
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .main_text{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .main_text h1{
+        margin: 0px;
+        padding: 0px 70px 0px 0px;
+        font-size: 2.5em;
+        font-weight: bold;
+        max-width: 280px;
+    }
+
+    .main_text p{
+        margin: 0px;
+        padding: 0px;
+        font-size: 1em;
+        max-width: 300px;
+    }
+
+    .main_image img{
+        max-height: 600px;
+        width: 100%;
+        margin: 30px 0px 0px 0px;
+    }
+
+    
+    .solar_energy_cta{
+        width: 100%;
+        max-width: 1000px;
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+    }
+
+    .solar_energy_cta img{
+        max-height: 650px;
+        width: 500px;
+        padding-right: 50px;
+    }
+
+    .text_container{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .solar_energy_cta h1{
+        margin: 0px;
+        padding: 0px;
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    .solar_energy_cta p{
+        padding: 0px;
+        font-size: 1em;
+        margin-bottom: 33.5px;
+    }
+
+    .solar_energy_cta a{
+        color: white;
+        background-color: black;
+        text-decoration: none;
+        font-size: 1em;
+        /* border: 2px solid white; */
+        border-radius: 0px;
+        padding: 10px;
+    }
+
+    .solar_energy_cta a:hover{
+        color: black;
+        border: 2px solid black;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .cta_continued{
+        width: 100%;
+        max-width: 1000px;
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cta_continued h1{
+        margin: 0px;
+        padding: 0px;
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    .cta_continued p{
+        margin: 10px 0px 30px 0px;
+        padding: 0px;
+        font-size: 1em;
+        /* margin-bottom: 30px; */
+    }
+
+    .cta_continued a{
+        color: white;
+        background-color: black;
+        text-decoration: none;
+        font-size: 1em;
+        /* border: 2px solid white; */
+        border-radius: 0px;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+
+    .cta_continued a:hover{
+        color: black;
+        border: 2px solid black;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .cta_continued img{
+        margin: 0px;
+        max-height: 550px;
+        width: 400px;
+        padding-left: 50px;
+    }
+
+    .benefits{
+        width: 100%;
+        max-width: 1000px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .benefits h1{
+        text-align: center;
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    .box_container{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 15px;
+    }
+
+    .box{
+        background-color: white;
+        align-content: center;
+        max-width: 400px;
+        min-height: 350px;
+        margin: 0px 15px;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 5px 4px #dddddd;
+    }
+
+    .box img{
+        width: 100px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .box h2{
+        font-size: 1.5em;
+        font-weight: bold;
+        margin: 10px 0px;
+        padding: 0px;
+    }
+
+    .box p{
+        font-size: .8em;  
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .email{
+        max-width: 1000px;
+        margin: auto;
+        padding-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .email h1{
+        font-size: 2.5em;
+        font-weight: bold;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .email p{
+        font-size: 1em;
+        padding: 0px;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .form_element label{
+        display: none;
+    }
+
+    .form_element input{
+        font-size: 1em;
+        width: 70%;
+        outline: #aaaaaa;
+        padding: 10px 15px;
+        border: 1px solid #aaaaaa;
+        margin: 0px;
+    }
+
+    .form_element a{
+        font-size: 1em;
+        text-decoration: none;
+        border-radius: 0px;
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        padding: 8px;
+        margin: 0px;
+        width: 30%;
+    }
+
+    .form_element a:hover{
+        border: 2px solid black;
+        background-color: transparent;
+        color: black;
+    }
+
+    .email img{
+        width: 450px;
+        margin: 0px auto 0px 50px;
+        max-height: 500px;
+        padding: 0px;
+    }
+
+    .footer{
+        background-color: #222222;
+        text-align: center;
+        color: white;
+        min-height: 20px;
+        padding: 5px 0px;
+        margin: 0px;
+        width: 100%;
+        font-size: 1em;
+    }
+}
