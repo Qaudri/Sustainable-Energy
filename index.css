@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    font: roboto;
+    font-family: poppins;
 }
 
 html{
@@ -8,6 +8,10 @@ html{
 }
 
 /* ## PHONES BREAKPOINT ## */
+
+
+
+
 
 
 
@@ -69,7 +73,7 @@ html{
 
     .header_list ul {
         display: block;
-        padding: 0px;
+        padding: 0px 0px 20px 0px;
         margin: 0px;
     }
       
@@ -79,6 +83,7 @@ html{
         padding: 0px 40px;
         padding-top: 20px;
         border-bottom: 1px solid black;
+        padding-bottom: 10px;
     }
 
     .hero_section{
@@ -104,7 +109,7 @@ html{
 
     .hero_text h1{
         color: white;
-        font-size: 2em;
+        font-size: 2.2em;
         font-weight: bold;
         padding-top: 100px;
         padding-bottom: 30px;
@@ -117,7 +122,7 @@ html{
         color: white;
         background-color: transparent;
         text-decoration: none;
-        font-size: 1.1em;
+        font-size: .8em;
         border: 2px solid white;
         border-radius: 0px;
         padding: 10px;
@@ -148,14 +153,14 @@ html{
     .main_text h1{
         margin: 0px;
         padding: 0px;
-        font-size: 2em;
+        font-size: 2.2em;
         font-weight: bold;
     }
 
     .main_text p{
         margin: 30px 0px 0px 0px;
         padding: 0px;
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     .main_image img{
@@ -180,14 +185,14 @@ html{
     .solar_energy_cta h1{
         margin: 30px 0px 0px 0px;
         padding: 0px;
-        font-size: 2em;
+        font-size: 2.2em;
         font-weight: bold;
     }
 
     .solar_energy_cta p{
         margin: 0px 0px 0px 0px;
         padding: 0px;
-        font-size: 1.1em;
+        font-size: .8em;
         margin-bottom: 30px;
     }
 
@@ -195,7 +200,7 @@ html{
         color: white;
         background-color: black;
         text-decoration: none;
-        font-size: 1.1em;
+        font-size: .8em;
         /* border: 2px solid white; */
         border-radius: 0px;
         padding: 10px;
@@ -218,14 +223,14 @@ html{
     .cta_continued h1{
         margin: 30px 0px 0px 0px;
         padding: 0px;
-        font-size: 2em;
+        font-size: 2.2em;
         font-weight: bold;
     }
 
     .cta_continued p{
         margin: 0px 0px 0px 0px;
         padding: 0px;
-        font-size: 1.1em;
+        font-size: .8em;
         margin-bottom: 30px;
     }
 
@@ -233,7 +238,7 @@ html{
         color: white;
         background-color: black;
         text-decoration: none;
-        font-size: 1.1em;
+        font-size: .8em;
         /* border: 2px solid white; */
         border-radius: 0px;
         padding: 10px;
@@ -262,7 +267,7 @@ html{
 
     .benefits h1{
         text-align: center;
-        font-size: 2em;
+        font-size: 2.2em;
         font-weight: bold;
     }
 
@@ -285,14 +290,14 @@ html{
     }
 
     .box h2{
-        font-size: 1.5em;
+        font-size: 1.3em;
         font-weight: bold;
         margin: 10px 0px;
         padding: 0px;
     }
 
     .box p{
-        font-size: 1.1em;
+        font-size: .8em;
         margin: 0px;
         padding: 0px;
     }
@@ -305,14 +310,14 @@ html{
     }
 
     .email h1{
-        font-size: 2.5em;
+        font-size: 2.2em;
         font-weight: bold;
         padding: 0px;
         margin: 0px;
     }
 
     .email p{
-        font-size: 1.1em;
+        font-size: .8em;
         padding: 0px;
         margin: 10px 0px 20px 0px;
     }
@@ -332,9 +337,10 @@ html{
     .form_element a{
         text-decoration: none;
         border-radius: 0px;
+        border: 1px solid black;
         background-color: black;
         color: white;
-        padding: 10px;
+        padding: 8px;
         margin: 0px;
         width: 30%;
     }
