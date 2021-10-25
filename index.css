@@ -111,7 +111,7 @@ html{
         color: white;
         font-size: 2.2em;
         font-weight: bold;
-        padding-top: 100px;
+        padding-top: 120px;
         padding-bottom: 30px;
         padding-right: 0px;
         padding-left: 0px;
@@ -138,11 +138,13 @@ html{
         width: 100%;
         padding: 0px;
         margin: 50px 0px 0px 0px ;
+        max-width: 400px;
+        margin: auto;
     }
 
     .container{
-        max-width: 400px;
-        margin: auto;
+
+        padding: 30px;
     }
 
     .main_text{
@@ -175,6 +177,10 @@ html{
         max-width: 400px;
         margin: auto;
         margin-top: 50px;
+    }
+
+    .solar_energy_container{
+        padding: 30px;
     }
 
     .solar_energy_cta img{
@@ -218,6 +224,10 @@ html{
         max-width: 400px;
         margin: auto;
         margin-top: 50px;
+    }
+
+    .cta_continued_container{
+        padding: 30px;
     }
 
     .cta_continued h1{
@@ -265,6 +275,10 @@ html{
         margin-top: 50px;
     }
 
+    .benefits_container{
+        padding: 30px;
+    }
+
     .benefits h1{
         text-align: center;
         font-size: 2.2em;
@@ -310,6 +324,9 @@ html{
         width: 100%;
     }
 
+    .container{
+        padding: 30px;
+    }
     .email h1{
         font-size: 2.2em;
         font-weight: bold;
@@ -329,7 +346,7 @@ html{
 
     .form_element input{
         font-size: .8em;
-        width: 70%;
+        width: 60%;
         outline: #aaaaaa;
         padding: 10px 15px;
         border: 1px solid #aaaaaa;
@@ -354,11 +371,14 @@ html{
         color: black;
     }
 
+
+
     .email img{
         width: 100%;
         margin: 30px auto 0px auto;
         max-height: 400px;
         padding-top: 30px;
+        max-height: 500px;
     }
 
     .footer{
@@ -888,6 +908,7 @@ html{
         margin: 0px;
         padding: 0px 70px 0px 0px;
         font-size: 2.5em;
+        line-height: 50px;
         font-weight: bold;
         max-width: 280px;
     }
@@ -907,6 +928,14 @@ html{
 
     
     .solar_energy_cta{
+        width: 100%;
+        max-width: 1000px;
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+    }
+
+    .solar_energy_container{
         width: 100%;
         max-width: 1000px;
         margin: auto;
@@ -964,6 +993,15 @@ html{
         justify-content: space-between;
     }
 
+    .cta_continued_container{
+        width: 100%;
+        max-width: 1000px;
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
     .cta_continued h1{
         margin: 0px;
         padding: 0px;
@@ -1010,6 +1048,8 @@ html{
         margin-top: 50px;
     }
 
+
+
     .benefits h1{
         text-align: center;
         font-size: 2.5em;
@@ -1053,6 +1093,15 @@ html{
     }
 
     .email{
+        max-width: 1000px;
+        margin: auto;
+        padding-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container{
         max-width: 1000px;
         margin: auto;
         padding-top: 50px;
