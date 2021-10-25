@@ -143,7 +143,6 @@ html{
     }
 
     .container{
-
         padding: 30px;
     }
 
@@ -324,7 +323,7 @@ html{
         width: 100%;
     }
 
-    .container{
+    .email_container{
         padding: 30px;
     }
     .email h1{
@@ -889,11 +888,13 @@ html{
         width: 100%;
         padding: 0px;
         margin: 50px 0px 0px 0px ;
+        display: block;
     }
 
     .container{
         max-width: 1000px;
         margin: auto;
+        display: block;
     }
 
     .main_text{
@@ -932,7 +933,6 @@ html{
         max-width: 1000px;
         margin: auto;
         margin-top: 50px;
-        display: flex;
     }
 
     .solar_energy_container{
@@ -1101,7 +1101,7 @@ html{
         justify-content: space-between;
     }
 
-    .container{
+    .email_container{
         max-width: 1000px;
         margin: auto;
         padding-top: 50px;
